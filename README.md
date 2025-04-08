@@ -1,19 +1,10 @@
-Bem-vindo ao Casa Inteligente, um sistema simples para simulação e controle de ambientes domésticos. Este programa utiliza Java com a biblioteca Swing para criar uma interface gráfica que exibe informações sobre múltiplos cômodos de uma residência, como temperatura, umidade e luminosidade.
+# Casa Inteligente - Controle de Ambientes Simulados  
 
-🛠️ Funcionalidades
-Atualização de Dados:
-Cada cômodo apresenta dados gerados aleatoriamente para temperatura, umidade e luminosidade, que podem ser atualizados clicando no botão "Atualizar Ambiente".
+Este sistema foi desenvolvido para simular o controle de ambientes domésticos com base em dados de sensores como temperatura, umidade e luminosidade. Ele utiliza **Java Swing** para criar uma interface gráfica intuitiva que exibe os dados de diferentes cômodos da casa.
 
-Cenários Simulados:
+Embora este código use dados gerados aleatoriamente para simulação, ele foi projetado considerando a integração futura com sensores conectados a um **Arduino**, permitindo maior realismo e aplicabilidade em projetos de automação.
 
-Temperatura acima de 26°C ativa o ar-condicionado.
-
-Luminosidade baixa (< 30%) ativa a luz.
-
-Temperatura extrema ou baixa umidade apresenta alertas no status do ambiente.
-
-Interface Intuitiva:
-
-Layout em grade para exibir informações de vários cômodos.
-
-Uso de ícones e cores para uma experiência visual agradável.
+## 🛠️ Funcionalidades  
+- Exibição de dados simulados para **Quarto**, **Sala**, **Cozinha**, **Banheiro** e **Garagem**.  
+- Regras automatizadas, como ativação de **ar-condicionado** e **luzes**, com base nas condições dos sensores.  
+- Alertas para situações críticas, como **alta temperatura** ou **baixa umidade**.
